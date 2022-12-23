@@ -1,0 +1,33 @@
+.content-fluid{
+  position: relative;
+  min-height: 84vh;
+}
+.content-body{
+    display: flex;
+    justify-content: space-around;
+    background-color: #25D366;
+     padding: 1%;
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+ }
+ button{
+  width:10%;
+  min-height: 50px;
+  border: 2px solid rgb(235, 195, 14);
+  background-color:rgb(13, 240, 229); ;
+  border-radius: 5%;
+  }
+.btn-send{
+  border-radius: 25px;
+  color:blueviolet;
+}
+
+@media screen and (max-width: 320px){
+  .btn-send span{
+          visibility: hidden;
+  }
+}
+
+
+
